@@ -26,6 +26,256 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 # PROGRAM:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="icon" href="mini.jpg">
+    <style>
+         body{
+            background-color: rgb(239, 239, 239);
+            
+         }
+         .img1{
+            width: 500px;
+            position: relative;
+            top:50px
+         }
+         .two{
+            background-color: rgb(50, 50, 50);
+            border: 1px;
+            border-radius: 15px;
+            width: 800px;
+            height: 50px;
+            position: relative;
+            top: 50px;
+         }
+         .a{
+           color: aliceblue; 
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif ;
+            position: relative;
+            top: 10px;
+            right: 25px;
+         }
+         .b{
+           color: aliceblue; 
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif ;
+            position: relative;
+            top: 10px;
+            right: 5px;
+         }
+         .c{
+           color: aliceblue; 
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif ;
+            position: relative;
+            top: 10px;
+            left: 15px;
+         }
+         .d{
+           color: aliceblue; 
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif ;
+            position: relative;
+            top: 10px;
+            left: 30px;
+         }
+         .three{
+            background-image: url(offer.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 900px;;
+            height: 150px;
+            border: 1px;
+            border-radius: 20px;
+            position:relative;
+            left: 307px;
+            top: 50px;
+
+         }
+         .h1{
+            color: rgb(255, 255, 255);
+            position: relative;
+            left: 300px;
+        
+         }
+         .p1{
+            color: aliceblue;
+            position: relative;
+            top: 5px;
+         }
+         .four{
+            background-color: lightcoral;
+            width:300px;
+            height: 400px;
+            border: 1px;
+            border-radius: 15px;
+            position: relative;
+            top: 50px;
+            left: 20%;
+           
+         }
+         .img2{
+            width: 250px;
+            position: relative;
+            top: 10px;
+         }
+         .q{
+            font-family: 'Times New Roman', Times, serif;
+            position: relative;
+            top: 10px;
+            left: 20px;
+         }
+         .z{
+            position: relative;
+            top: 5px;
+            left:20px
+         }
+         .e{
+            font-size: 18px;
+            position: relative;
+            left: 20px;
+         }
+         .five{
+            background-color: lightcoral;
+            width:300px;
+            height: 400px;
+            border: 1px;
+            border-radius: 15px;
+            position: relative;
+            bottom: 370px;
+            left: 42%;
+         }
+         .w{
+            font-family: 'Times New Roman', Times, serif;
+            position: relative;
+            top: 10px;
+            left: 20px;
+        }
+        .img3{
+            width: 250px;
+            position: relative;
+            top: 10px;
+        }
+        .x{
+            position: relative;
+            top: 5px;
+            left:20px
+        }
+        .f{
+            font-size: 18px;
+            position: relative;
+            left: 20px;
+        }
+        .six{
+            background-color: lightcoral;
+            width:300px;
+            height: 400px;
+            border: 1px;
+            border-radius: 15px;
+            position: relative;
+            bottom: 790px;
+            left: 64%;
+        }
+        .r{
+            font-family: 'Times New Roman', Times, serif;
+            position: relative;
+            top: 10px;
+            left: 20px; 
+        }
+        .img4{
+            width: 250px;
+            position: relative;
+            top: 10px;
+        }
+        .v{
+            font-size: 15px;
+            position: relative;
+            top: 5px;
+            left:20px
+        }
+        .g{
+            font-size: 18px;
+            position: relative;
+            left: 20px
+        }
+        .seven{
+            text-align: right;
+            font-size: 50px;
+            position: relative;
+            bottom: 1800px;
+        }
+        .eight{
+            text-align: right;
+            font-size: 50px;
+            position: relative;
+            bottom: 800px;
+        } 
+        .nine{
+            text-align: right;
+            position: relative;
+            bottom: 800px;
+        }
+        .img5{
+            width: 100px;
+            position: relative;
+            bottom: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <center>
+        <img src="logo.png" alt="Restaurant Logo" class="img1"></center>
+        <center>
+        <div class="two">
+            <a href="" class="a">Home</a> <a href="" class="b">Menu</a> <a href="" class="c">Book</a> <a href="" class="d">About</a></div>
+        </div></center>
+        <div class="three">
+            <h1 class="h1">30% off This Weekend</h1>
+            <p class="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, at animi, autem molestiae qui blanditiis sit aperiam debitis, asperiores minima laudantium? Ratione a quia enim exercitationem tempora asperiores magni et.</p>
+        </div>
+        <div class="four">
+            <h2 class="q">Our New Menu</h2>
+            <center>
+            <img src="dish.jpg" alt="dish Image" class="img2">
+            </center>
+            <p class="z">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab exercitationem debitis fugiat, facere illo cum a quis doloremque quidem suscipit laborum eos ratione. Quae quas neque impedit inventore perferendis itaque?</p>
+            <a href="" class="e">See Our New Menu</a>            
+        </div>  
+        <div class="five">
+            <h2 class="w">Book a Table</h2>
+            <center>
+                <img src="table.jpg" alt="table Image" class="img3">
+            </center>
+            <p class="x">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem sit libero commodi dolor aliquid eligendi, maxime asperiores iusto excepturi officiis rem non animi nam sunt ipsa id, ex exercitationem eius.</p>
+            <a href="" class="f">Book Your Table Now</a>       
+        </div>
+        <div class="six">
+            <h2 class="r">Opening Hours</h2>
+            <center>
+                <img src="work.jpg" alt="cooking Image" class="img4">
+            </center>
+            <p class="v">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo labore placeat explicabo assumenda perferendis magni doloribus odio atque sapiente suscipit animi magnam, laboriosam corrupti repellendus, deserunt at corporis, expedita quas!</p>
+            <a href="" class="g">Click For Timings</a> 
+        </div>
+        <div class="eight">_________________________________</div>
+        <div class="nine">Copyright Little Lemon</div>
+        <img src="mini.jpg" alt="" class="img5">
+        <div class="seven">______________________________________________________________</div>
+    </div>
+</body>
+</html>
+```
 # OUTPUT:
+![Screenshot 2024-11-25 112902](https://github.com/user-attachments/assets/c32bb019-4fee-4857-bd25-7e0e6efee889)
+![Screenshot 2024-11-25 112920](https://github.com/user-attachments/assets/a81674c4-d811-4ed2-8643-ec9558b6ae87)
+
+
 # RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
