@@ -391,11 +391,195 @@ About.html
 </body>
 </html>
 ```
+contact.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="icon" href="mini.jpg">
+    <style>
+         body{
+            background-color: rgb(239, 239, 239);
+            
+         }
+         .img1{
+            width: 500px;
+            position: relative;
+            top: -10px;
+         }
+         .two{
+            background-color: rgb(50, 50, 50);
+            border: 1px;
+            border-radius: 15px;
+            width: 800px;
+            height: 50px;
+            position: relative;
+            top: -10px;
+         }
+         .a{
+           color: aliceblue; 
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif ;
+            position: relative;
+            top: 10px;
+            right: 25px;
+         }
+         .b{
+           color: aliceblue; 
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif ;
+            position: relative;
+            top: 10px;
+            right: 5px;
+         }
+         .c{
+           color: aliceblue; 
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif ;
+            position: relative;
+            top: 10px;
+            left: 15px;
+         }
+         .d{
+           color: aliceblue; 
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif ;
+            position: relative;
+            top: 10px;
+            left: 30px;
+         }
+        .image1{
+            width: 250px;
+            position: relative;
+            top: 10px;
+        }
+        .image2{
+            width: 250px;
+            position: relative;
+        }
+        .seven{
+            text-align: right;
+            font-size: 50px;
+            position: relative;
+            top: -15px;
+        }
+        .contact-container {
+            text-align: center;
+            margin: 50px auto;
+            max-width: 800px;
+        }
+        .contact-container h2 {
+            color: #c34c3e;
+            font-size: 32px;
+        }
+        .contact-container p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+        .contact-form {
+            margin: 30px auto;
+            max-width: 600px;
+            text-align: left;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+        .contact-form input, 
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #c34c3e;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact-form button:hover {
+            background-color: #ff6347;
+        }
+        .container{
+            position: relative;
+            top: -70px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="seven">______________________________________________________________</div>
+    <div class="one">
+        <center>
+        <img src="logo.png" alt="Restaurant Logo" class="img1"></center>
+        <center>
+        <div class="two">
+            <a href="restaurant.html" class="a">Home</a> <a href="" class="b">Menu</a> <a href="contact.html" class="c">Contact</a> <a href="about.html" class="d">About</a></div>
+        </div></center>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Whether you have questions, feedback, or want to make a reservation, feel free to reach out to us using the form below.</p>
+            
+            <form class="contact-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+    
+            <p>Or visit us at:</p>
+            <p><strong>Little Lemon Restaurant</strong><br>
+            123 Main Street, Foodville, FL 54321<br>
+            Phone: (123) 456-7890<br>
+            Email: contact@littlelemon.com</p>
+        </div>
+        </div>
+    
+        
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Little Lemon. All Rights Reserved.</p>
+        </footer>
+       
+    </div>
+</body>
+</html>
+```
 # OUTPUT:
 ![alt text](<Screenshot 2024-11-25 112902.png>)
 ![alt text](<Screenshot 2024-11-25 112920.png>)
 ![Screenshot 2024-12-16 223930](https://github.com/user-attachments/assets/daf1007e-1eb5-41c0-8e2c-eddb5a85bdcf)
 ![Screenshot 2024-12-16 223941](https://github.com/user-attachments/assets/865a246c-cee9-45ac-bc49-4d7bd3024320)
+![Screenshot 2024-12-16 230051](https://github.com/user-attachments/assets/55eb60ee-6190-4f98-85ca-bde3a9dc6552)
+![Screenshot 2024-12-16 230103](https://github.com/user-attachments/assets/85046ad3-0208-4ad3-b976-ae8dabf2a6ec)
+
 
 
 # RESULT:
